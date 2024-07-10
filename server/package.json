@@ -1,0 +1,23 @@
+{
+	"name": "tic-tac-toe-w-sockets",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"@dimforge/rapier3d-compat": "^0.12.0",
+		"cors": "^2.8.5",
+		"express": "^4.18.3",
+		"pathfinding": "^0.4.18",
+		"socket.io": "^4.7.4",
+		"three": "^0.162.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
+}
